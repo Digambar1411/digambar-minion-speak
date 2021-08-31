@@ -1,0 +1,1 @@
+console.log("this is the script from other file");
