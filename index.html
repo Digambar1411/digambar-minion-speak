@@ -8,27 +8,39 @@
     
     <style>
          textarea{
-            margin:2rem;
-            padding:1rem;
+            height: 10vh;
+            width:60vh;
+            padding: 1rem;
+            margin: 1rem;
             display: block;
-            margin:auto;
+            
         }
         button{
             margin:auto;
             padding: 0.5rem;
            
         }
-    
+        
+        #output{
+            border: 1px solid black;
+            height: 10vh;
+            width:60vh;
+            padding: 1rem;
+            margin: 1rem;
+
+        }
     </style>
 
-   
 
 <body>
           
     <h2>this is banana speak</h2>
-    <textarea id="txt-input"  placeholder="Put your sentence here in english we will translate to banana." cols="70" rows="6"></textarea>
+    <textarea id="txt-input"  placeholder="Put your sentence here in english we will translate to banana."></textarea>
     
     <button id="btn-translate">Translate</button>
+
+    <div style="font-size: larger;" >Output will show here 👇 </div>
+    <div id="output"></div>
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
